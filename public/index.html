@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <style>
+    body {
+      background: rgb(124, 124, 124);
+    }
+
+    form {
+      text-align: center;
+      margin-top: 100px;
+    }
+    
+    div {
+      background: rgb(126, 91, 56);
+      width: 500px;
+      min-height: 400px;
+      color: white;
+      margin: auto;
+      margin-top: 30px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 5px;
+      font-family: sans-serif;
+    }
+
+    li {
+      clear: both;
+      margin: 0px 0px 5px 0px;
+      border: solid 1px white;
+      width: 98%;
+      padding: 5px;
+      border-radius: 5px;
+      background: rgba(161, 117, 72, 0.808);
+    }
+
+    img {
+      float: left;
+      width: 75px;
+      border-radius:  75px;
+      margin-right: 10px;
+    }
+
+    strong {
+      font-size: 15px;
+    }
+
+    p, a {
+      color: white;
+      font-size: 15px;
+      margin: 5px 0px ;
+    }
+
+    #reset {
+      position: absolute;
+      left: 885px;
+      margin-top: 5px;
+    }
+  </style>
+
+</head>
+<body>
+  
+    <form id="repo-form">
+      <input type="text" name="repository">
+      <button type="submit">Adicionar</button>
+    </form>
+  <div>
+    <ul id="repo-list">
+      
+      <!-- <li>
+
+        <img src="https://avatars2.githubusercontent.com/u/54079508?v=4">
+      
+        <strong>Renan Nunes</strong>
+      
+        <p>Algumas ideias</p>
+      
+        <a href="https://github.com/renan-sn" target="_blank">Acessar</a>
+      
+      </li> -->
+    
+    </ul>
+    
+  </div>
+
+  <button id="reset">Limpar</button>
+  
+  <script src="./bundle.js"></script>
+</body>
+</html>
